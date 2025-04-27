@@ -47,7 +47,7 @@ let score = 0;
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHTML = "Next";
+    nextButton.innerHTML = "Sonraki";
     showQuestion();
 }
 
@@ -97,8 +97,8 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Play Again";
+    questionElement.innerHTML = `${questions.length} sorudan ${score} tanesini doğru yanıtladınız!`;
+    nextButton.innerHTML = "Tekrar Oyna";
     nextButton.style.display = "block";
 }
 
