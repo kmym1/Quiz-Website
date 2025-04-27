@@ -1,14 +1,5 @@
 const questions = [
     {
-        question: "Aşağıdakilerden hangisi doğada azot döngüsüne katkı sağlayan bir süreçtir?",
-        answers: [
-            {text: "Güneş ışığının klorofil ile etkileşmesi.", correct: false},
-            {text: "Topraktaki minerallerin rüzgarla taşınması", correct: false},
-            {text: "Su buharının yoğuşarak yağmur oluşturması.", correct: false},
-            {text: "Şimşek çakmasıyla atmosferde azotun nitrata dönüşmesi.", correct: true},
-        ]
-    },
-    {
         question: "Karbon döngüsünde CO2 bileşiğini azaltan-arttıran hareketlerden hangisi yanlış eşleştirilmiştir?",
         answers: [
             {text: "Fotosentez-Azaltır", correct: false},
