@@ -14,7 +14,7 @@ const questions = [
             {text: "Fotosentez-Azaltır", correct: false},
             {text: "Yanma tepkimeleri-Arttırır", correct: false},
             {text: "Saprotrof canlılar-Azaltır", correct: true},
-            {text: "A)Hücresel solunum-Arttırır", correct: false},
+            {text: "Hücresel solunum-Arttırır", correct: false},
         ]
     },
     {
