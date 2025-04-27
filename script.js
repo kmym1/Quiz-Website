@@ -1,38 +1,47 @@
 const questions = [
     {
-        question: "Which country's flag is not quadrangle?",
+        question: "Aşağıdakilerden hangisi doğada azot döngüsüne katkı sağlayan bir süreçtir?",
         answers: [
-            {text: "Bhutan", correct: false},
-            {text: "Pakistan", correct: false},
-            {text: "Zimbabwe", correct: false},
-            {text: "Nepal", correct: true},
+            {text: "Güneş ışığının klorofil ile etkileşmesi.", correct: false},
+            {text: "Topraktaki minerallerin rüzgarla taşınması", correct: false},
+            {text: "Su buharının yoğuşarak yağmur oluşturması.", correct: false},
+            {text: "Şimşek çakmasıyla atmosferde azotun nitrata dönüşmesi.", correct: true},
         ]
     },
     {
-        question: "Which country has the largest surface area?",
+        question: "Karbon döngüsünde CO2 bileşiğini azaltan-arttıran hareketlerden hangisi yanlış eşleştirilmiştir?",
         answers: [
-            {text: "China", correct: false},
-            {text: "Canada", correct: false},
-            {text: "Russia", correct: true},
-            {text: "India", correct: false},
+            {text: "Fotosentez-Azaltır", correct: false},
+            {text: "Yanma tepkimeleri-Arttırır", correct: false},
+            {text: "Saprotrof canlılar-Azaltır", correct: true},
+            {text: "A)Hücresel solunum-Arttırır", correct: false},
         ]
     },
     {
-        question: "Which is the largest desert in the world?",
+        question: "Aşağıdaki ifadelerden hangileri doğrudur? I. Enerji akışı sırasında her trofik düzeyde %90’a yakın bir kayıp gerçekleşir. II. Maddeler (karbon, azot vs.) besin zincirinde bir kez dolaşıp kaybolur. III. Üçüncül tüketiciler sayıca az olmalıdır çünkü destekleyecek enerji miktarı çok sınırlıdır. IV. Enerji, ekosistemde üreticiden başlayarak tek yönlü bir akış gösterir.",
         answers: [
-            {text: "Antarctica", correct: true},
-            {text: "Sahara", correct: false},
-            {text: "Kalahari", correct: false},
-            {text: "Gobi", correct: false},
+            {text: "I, III ve IV", correct: true},
+            {text: "I, II, III ve IV", correct: false},
+            {text: "II ve III", correct: false},
+            {text: "I ve IV", correct: false},
         ]
     },
     {
-        question: "Which color is not on the Seychelles flag?",
+        question: "Bitkilerin yapraklarından atmosfere su buharı salması olayına ne ad verilir?",
         answers: [
-            {text: "Blue", correct: false},
-            {text: "Red", correct: false},
-            {text: "Green", correct: false},
-            {text: "Black", correct: true},
+            {text: "Su döngüsü", correct: false},
+            {text: "Nitrifikasyon", correct: false},
+            {text: "Fotosentez", correct: false},
+            {text: "Tranpirasyon", correct: true},
+        ]
+    },
+    {
+        question: "Biyolojik birikim sonucu bir zararlı maddenin en fazla biriktiği canlılar, genellikle hangi trofik düzeyde bulunur?",
+        answers: [
+            {text: "Üreticiler (Bitkiler)", correct: false},
+            {text: "Birincil tüketiciler (Otoburlar)", correct: false},
+            {text: "İkincil tüketiciler (Etçil küçük hayvanlar)", correct: false},
+            {text: "Üçüncül tüketiciler (Zincirin en üstündeki etoburlar)", correct: true},
         ]
     }
 ];
